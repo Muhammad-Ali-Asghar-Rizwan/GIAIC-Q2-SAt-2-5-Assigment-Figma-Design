@@ -29,11 +29,11 @@ const Data = () => {
         </div>
 
         {/* Second Container */}
-        <div className="mt-72">
-          <h1 className="text-center text-[72px] font-bold bg-no-repeat bg-bottom" style={{ backgroundImage: "url(/images/underline3.png)" }}>
+        <div className="mt-64 bg-blue-200 h-full">
+          <h1 className="text-center  text-[72px] font-bold bg-no-repeat bg-bottom " style={{ backgroundImage: "url(/images/underline3.png)" }}>
             Our sponsors
           </h1>
-          <div className="flex items-center justify-between px-10 gap-28 mt-24">
+          <div className="flex items-center justify-between px-10 gap-28 mt-32">
             <Image src="/images/microsoft 1.png" alt="user" width={100} height={100} className="w-[287px] h-[62px]" />
             <Image src="/images/Apple.png" alt="user" width={100} height={100} className="w-[55.47px] h-[68px]" />
             <Image src="/images/slaCK.png" alt="user" width={100} height={100} className="w-[279.1px] h-[70.22px]" />
