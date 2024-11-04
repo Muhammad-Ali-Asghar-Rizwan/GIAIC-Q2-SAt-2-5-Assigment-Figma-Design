@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { FaArrowRight } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div>
@@ -22,9 +23,10 @@ const Navbar = () => {
         </div>
 
         {/* Button */}
-        <div className='gap-20'>
+        <div className='gap-1 flex flex-row'>
             <button className='mr-5 w-[126px] h-[50px] bg-[#FFE492] hover:bg-[#ffdc72] rounded-[8px] gap-[10px]'>Login</button>
-            <button className='w-[227px] h-[50px] font-normal bg-[#4F9CF9] hover:bg-[#2989ff] rounded-[8px] text-white'>Try WhiteSpace Free</button>
+            
+            <button className='flex items-center justify-center gap-2 w-[227px] h-[50px] font-normal bg-[#4F9CF9] hover:bg-[#2989ff] rounded-[8px] text-white'>Try WhiteSpace Free <FaArrowRight /></button>
         </div>
 
       </div>
