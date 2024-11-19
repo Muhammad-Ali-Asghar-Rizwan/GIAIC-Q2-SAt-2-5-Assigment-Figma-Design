@@ -15,16 +15,46 @@ function MainPage() {
   return (
     <div>
       <Navbar/>
-      <Home/>
-      <WorkManagement/>
-      <Extension/>
-      <Customize/>
-      <Plan/>
-      <Work/>
-      <Data/>
-      <FoveriteApp/>
-      <Client/>
-      <Footer/>
+
+      <div className=''>
+      <Home />
+      </div>
+
+      <div className=''>
+      <WorkManagement />
+      </div>
+
+      <div className="">
+      <Extension />
+      </div>
+
+      <div className="">
+      <Customize />
+      </div>
+
+      <div className="">
+      <Plan />
+      </div>
+
+      <div className="">
+      <Work />
+      </div> 
+
+      <div className="">
+      <Data />
+      </div>
+
+      <div className="">
+      <FoveriteApp />
+      </div>
+
+      <div className="">
+      <Client />
+      </div>
+
+      <div className="">  
+      <Footer />
+      </div>
     </div>
   )
 }
